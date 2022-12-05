@@ -2,6 +2,7 @@ use std::io;
 
 pub mod day1;
 pub mod day2;
+pub mod day3;
 
 fn main() {
     println!("Please choose the day:");
@@ -17,6 +18,7 @@ fn main() {
     match day {
         1 => day1::solve(),
         2 => day2::solve(),
+        3 => day3::solve(),
         _=> println!("Seas"),
     };
 }
